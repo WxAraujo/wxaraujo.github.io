@@ -9,8 +9,8 @@ function toggleMode() {
   }*/
   const img = document.querySelector("#profile img") /* Pesquisa pelo seletor */
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/avatar-light.png") /* Light mode ON */
+    img.setAttribute("src", "./assets/avatar.png") /* Light mode ON */
   } else {
-    img.setAttribute("src", "./assets/avatar-black.png") /* Padrão */
+    img.setAttribute("src", "./assets/avatar.png") /* Padrão */
   }
 }
