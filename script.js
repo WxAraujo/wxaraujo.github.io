@@ -13,4 +13,15 @@ function toggleMode() {
   } else {
     img.setAttribute("src", "./assets/avatar.png") /* Padrão */
   }
+  if (html.classList.contains("light")) {
+    img.setAttribute(
+      "alt",
+      "Está é a segunda opção de imagem que mostra as mesmas características"
+    )
+  } else {
+    img.setAttribute(
+      "alt",
+      "Foto de Willians, em um ambiente claro, com camisa preta"
+    )
+  }
 }
