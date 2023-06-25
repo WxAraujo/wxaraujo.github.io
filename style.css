@@ -82,6 +82,7 @@ body * {
   z-index: 1;
   top: 50%;
   animation: slide-out 0.4s;
+  cursor: pointer;
 }
 
 #switch button:hover {
