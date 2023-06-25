@@ -42,7 +42,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   /* border: 1px solid red; VISUALIZAR BORDA */
   margin: 0 auto; /*top right bottom left */
   padding: 0 24px;
